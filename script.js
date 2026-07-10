@@ -8,7 +8,7 @@ const scoreDisplay = document.getElementById("score");
 
 function getCurrentSpeed() {
     let speed = 5 + Math.floor(score / 10) * 1;
-    if (speed > 50) speed = 50;
+    if (speed > 25) speed = 25;
     return speed;
 }
 
